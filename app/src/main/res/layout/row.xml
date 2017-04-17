@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rxText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="RX:" />
+
+            <TextView
+                android:id="@+id/rx_view"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/dosageText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Dosage:" />
+
+            <TextView
+                android:id="@+id/dose_view"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/remText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Remaining:" />
+
+            <TextView
+                android:id="@+id/rem_view"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fill_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
